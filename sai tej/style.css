@@ -1,0 +1,77 @@
+/* fonts */
+@font-face {
+    font-family: 'baou';
+    src: url('fonts/Baou-Display.ttf');
+  }
+  
+  @font-face {
+    font-family: 'forum';
+    src: url('fonts/Forum-Regular.ttf');
+  }
+  
+  @font-face {
+    font-family: 'chavi';
+    src: url('fonts/ChavieraRegular-d9PwZ.otf') format('opentype');
+  }
+  
+  .navbar {
+   
+    float: right;
+    margin-right: -250px;
+    padding: 10px;
+  }
+  
+  .navbar-nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: right;
+  }
+  
+  .nav-item {
+    display: inline-block;
+    margin-left: 10px;
+  }
+  
+  .nav-link {
+    text-decoration: none;
+    color: #333;
+    padding: 5px 10px;
+  }
+  
+  .nav-link:hover {
+    background-color: #ccc;
+    color: #fff;
+  }
+  
+
+/* icons/ */
+.footer {
+  padding: 20px;
+  text-align: center;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+}
+
+.social-icon {
+  margin: 0 10px;
+  font-size: 24px;
+  color: #333;
+}
+
+.social-icon:hover {
+  color: #ff0000; /* Change the color on hover as desired */
+}
+
+
+.vertical{
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+  white-space: nowrap;
+  /* Additional styles */
+  width: 100px; /* Adjust the width as needed */
+  height: 200px; /* Adjust the height as needed */
+}
